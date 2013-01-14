@@ -28,7 +28,7 @@
   adminPath: RequestHandler path to manage cores.  
     If 'null' (or absent), cores will not be manageable via request handler
   -->
-  <cores adminPath="/admin/cores" host="${host:}" hostPort="${jetty.port:}"  defaultCoreName="blacklight-core">
-    <core name="blacklight-core" instanceDir="blacklight-core" />
+  <cores adminPath="/admin/cores" host="${host:}" hostPort="${jetty.port:}"  defaultCoreName="databank-core">
+    <core name="databank-core" instanceDir="databank-core" />
   </cores>
 </solr>
